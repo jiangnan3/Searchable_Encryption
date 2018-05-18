@@ -15,6 +15,7 @@ A simple demenstration of this project can be:
 In terminal:
 
 (1)
+
 python build_index.py
 Please input the file to be encrypted:  Advanced_Meter.csv
 Please input the file stored the master key:  masterkey
@@ -24,6 +25,7 @@ Finished
 (A csv file named Advanced_Meter_index.csv will be generated)
 
 (2)
+
 python trapdoor.py
 Please input the keyword you want to search:  TN
 Please input the file stored the master key:  masterkey
@@ -31,6 +33,7 @@ Please input the file stored the master key:  masterkey
 (A file named TN_trapdoor will be generated)
 
 (3)
+
 python sse_search.py
 Please input the index file you want to search:  Advanced_Meter_index.csv
 Please input the file stored the trapdoor you want to search:  TN_trapdoor
