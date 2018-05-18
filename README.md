@@ -12,6 +12,7 @@ Advanced_Meter.csv is the document that contains statistical AMI data provided b
 The source code requires Pandas library for CSV file reading.
 
 A simple demenstration of this project can be:
+
 In terminal:
 
 (1)
