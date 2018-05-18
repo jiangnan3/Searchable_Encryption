@@ -1,7 +1,7 @@
 import pandas as pd
 from Crypto.Cipher import AES
 from Crypto.Hash import MD5
-import time
+# import time
 
 def build_codeword(ID, trapdoor):
     ID_index = MD5.new()
@@ -13,12 +13,12 @@ def search_index(document, trapdoor):
     search_result = []
     data_index = pd.read_csv(document)
     data_index = data_index.values
-    start_time = time.time()
+    # start_time = time.time()
     for row in range(data_index.shape[0]):
         if build_codeword(row, trapdoor) in data_index[row]:
             search_result.append(row)
 
-    print time.time() - start_time
+    # print time.time() - start_time
     return search_result
 
 if __name__ == "__main__":
