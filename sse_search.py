@@ -27,7 +27,7 @@ if __name__ == "__main__":
     keyword_trapdoor = raw_input("Please input the file stored the trapdoor you want to search:  ")
     keyword_trapdoor = open(keyword_trapdoor).read().strip()
     search_result = search_index(index_file_name, keyword_trapdoor)
-    print "The identifiers of files that contains the keyword are: \n", search_result
+    print "The identifiers of files that contain the keyword are: \n", search_result
 
 
 
