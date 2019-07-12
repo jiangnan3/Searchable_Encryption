@@ -7,11 +7,11 @@ This project gives the python implementation of a space efficient searchable enc
 
 build_index.py is used to build an search index for the given csv file. The request input are a csv file, a document that stores master key and a document contains the keyword types that the client want to search. The output is a csv file that stores the hex string index.
 
-trapdoor.py is used to generate the trapdoor for a given keyword.
+**trapdoor.py** is used to generate the trapdoor for a given keyword.
 
-sse_search.py is used to search documents that contains a specific keyword. The input should be the hex string index dociment and the trapdoor of the keyword to be searched.
+**sse_search.py** is used to search documents that contains a specific keyword. The input should be the hex string index dociment and the trapdoor of the keyword to be searched.
 
-Advanced_Meter.csv is the document that contains statistical AMI data provided by EIA. keywordlist is a document contains ten keywords selected by the author. masterkey contains the master key for index build.
+**Advanced_Meter.csv** is the document that contains statistical AMI data provided by EIA. keywordlist is a document contains ten keywords selected by the author. masterkey contains the master key for index build.
 
 The source code requires Pandas library for CSV file reading.
 
@@ -39,7 +39,7 @@ python trapdoor.py
 
 Please input the keyword you want to search:  TN
 
-Please input the file stored the master key:  masterkey
+Please input the file that stored the master key:  masterkey
 
 (A file named TN_trapdoor will be generated)
 
