@@ -5,7 +5,7 @@ This project gives the python implementation of a space efficient searchable enc
 
 **_Jiangnan Li, Xiangyu Niu, and Jinyuan Stella Sun, " A Practical Searchable Symmetric Encryption Scheme for Smart Grid Data, " 2019 IEEE International Conference on Communication (ICC), Shanghai, China, May 2019_**
 
-build_index.py is used to build an search index for the given csv file. The request input are a csv file, a document that stores master key and a document contains the keyword types that the client want to search. The output is a csv file that stores the hex string index.
+**build_index.py** is used to build an search index for the given csv file. The request input are a csv file, a document that stores master key and a document contains the keyword types that the client want to search. The output is a csv file that stores the hex string index.
 
 **trapdoor.py** is used to generate the trapdoor for a given keyword.
 
