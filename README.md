@@ -1,5 +1,5 @@
 # Searchable_Encryption
-This project gives the python implementation of a space efficient searchable encryption algorithm for smart grid data.
+This project gives the python 2.7 implementation of a space efficient searchable encryption algorithm for smart grid data.
 
 **Anyone who uses the algorithm or the source code need to cite the following paper:**
 
